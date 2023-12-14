@@ -1,0 +1,1 @@
+calculate_binomial_pmf_and_mean(50, 0.9)
