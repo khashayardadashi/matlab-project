@@ -11,7 +11,7 @@ function calculate_geometric_pmf_and_mean(n, p)
         results(i) = trialsUntilSuccess;
     end
 
-    % Plot the PMF
+    
     counts = hist(results, 1:max(results));
     pmf = counts / n;
 
